@@ -2,7 +2,7 @@
 
 A Simple Web Application to Manage Contacts Information, built on Ruby on Rails
 
-  Project Keywords:  'Ruby on Rails' 'SQLite'
+  Project Keywords:  'Ruby on Rails' 'SQLite' 'Semantic UI'
 
 *ruby-contacts* was created in order to learn some basic Ruby skills,
 based on this article[http://12devs.co.uk/articles/writing-a-web-application-with-ruby-on-rails/],

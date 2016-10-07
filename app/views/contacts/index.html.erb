@@ -1,8 +1,13 @@
-<p id="notice"><%= notice %></p>
+<div class="ui container">
+  <br/>
+<div id="notice"><%= notice %></div>
 
-<h1>Listing Contacts</h1>
+<h1 class="ui header">Listing Contacts</h1>
 
-<table>
+
+<%= link_to 'New Contact', new_contact_path %>
+
+<table class="ui celled table">
   <thead>
     <tr>
       <th>Name</th>
@@ -28,6 +33,4 @@
   </tbody>
 </table>
 
-<br>
-
-<%= link_to 'New Contact', new_contact_path %>
+</div>

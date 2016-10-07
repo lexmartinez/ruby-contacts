@@ -1,24 +1,28 @@
-<p id="notice"><%= notice %></p>
+<div class="ui container">
+    <br/>
+<div id="notice"><%= notice %></div>
+<h1 class="ui header">View Contact</h1>
 
-<p>
+<h3 class="field ui header">
   <strong>Name:</strong>
   <%= @contact.name %>
-</p>
+</h3>
 
-<p>
+<h3 class="field ui header">
   <strong>Organization:</strong>
   <%= @contact.organization %>
-</p>
+</h3>
 
-<p>
+<h3 class="field ui header">
   <strong>Phone:</strong>
   <%= @contact.phone %>
-</p>
+</h3>
 
-<p>
+<h3 class="field ui header">
   <strong>Email:</strong>
   <%= @contact.email %>
-</p>
+</h3>
 
 <%= link_to 'Edit', edit_contact_path(@contact) %> |
 <%= link_to 'Back', contacts_path %>
+</div>
