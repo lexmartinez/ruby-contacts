@@ -1,6 +1,6 @@
 == ruby-contacts
 
-A Simple Web Application to Manage Contacts Information, built on Ruby on Rails
+:izakaya_lantern: A Simple Web Application to Manage Contacts Information, built on Ruby on Rails
 
   Project Keywords:  'Ruby on Rails' 'SQLite' 'Semantic UI'
 
